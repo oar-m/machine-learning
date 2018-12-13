@@ -4,7 +4,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-
 # get data
 data = cancer.__load_data()
 cancer_x = data.drop("target", axis=1).values
